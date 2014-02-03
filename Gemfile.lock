@@ -1,8 +1,6 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    RedCloth (4.2.9)
-    RedCloth (4.2.9-java)
     actionmailer (3.2.13)
       actionpack (= 3.2.13)
       mail (~> 2.5.3)
@@ -38,15 +36,9 @@ GEM
     builder (3.0.4)
     diff-lcs (1.2.4)
     erubis (2.7.0)
-    git (1.2.5)
     hike (1.2.2)
     i18n (0.6.1)
     jdbc-postgres (9.2.1002.1)
-    jeweler (1.8.4)
-      bundler (~> 1.0)
-      git (>= 1.2.5)
-      rake
-      rdoc
     journey (1.0.4)
     json (1.8.0)
     json (1.8.0-java)
@@ -101,17 +93,13 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.37)
-    yard (0.8.6.1)
 
 PLATFORMS
   java
   ruby
 
 DEPENDENCIES
-  RedCloth
   activerecord-jdbcpostgresql-adapter
-  jeweler
   pg
   rails (>= 3.0.2)
   rspec
-  yard
